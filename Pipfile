@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+zappa = "*"
+flask = "*"
+"psycopg2" = "*"
+sqlalchemy = "*"
+"flask-sqlalchemy" = "*"
+"flask-restplus" = "*"
+"flask-migrate" = "*"
+"flask-script" = "*"
+
+
+[dev-packages]
+awscli = "*"
+
+
+
+
+
+
+
+[requires]
+python_version = "3.6"
